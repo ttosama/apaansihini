@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message From the Past</title>
+    <!-- Load Munro font from Google Fonts -->
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Dancing script', sans-serif;
+        }
+        
+        body {
+            height: 100vh;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 1280px;
+        }
+        
+        .message {
+            font-size: 2.5rem;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        
+        .image-container {
+            width: 90%;
+            max-width: 1280px;
+            margin: 0 auto;
+            border: 0px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            .message {
+                font-size: 3rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .message {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="message">from u 2k years ago</h1>
+        <div class="image-container">
+            <!-- Contoh gambar dengan ukuran 1280x427 px -->
+            <img src="https://imgur.com/efjNZFr.jpeg" alt="Ancient Message">
+        </div>
+    </div>
+</body>
+</html>
